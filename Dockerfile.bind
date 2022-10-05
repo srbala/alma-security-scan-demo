@@ -1,0 +1,13 @@
+FROM almalinux:8
+
+RUN dnf install -y \
+    bind \
+    bind-chroot \
+    bind-devel \
+    bind-pkcs11 \
+    bind-pkcs11-devel \
+    bind-pkcs11-utils \
+    bind-sdb \
+    bind-utils \
+    bind-sdb-chroot 
+

@@ -1,0 +1,16 @@
+docker run --rm -it srbala/demo:alma8-bind-security-upd rpm -qa | grep bind
+bind-license-9.11.36-3.el8.noarch
+bind-libs-lite-9.11.36-3.el8.x86_64
+bind-9.11.36-3.el8.x86_64
+bind-sdb-9.11.36-3.el8.x86_64
+bind-lite-devel-9.11.36-3.el8.x86_64
+bind-pkcs11-devel-9.11.36-3.el8.x86_64
+bind-sdb-chroot-9.11.36-3.el8.x86_64
+bind-pkcs11-utils-9.11.36-3.el8.x86_64
+bind-libs-9.11.36-3.el8.x86_64
+bind-pkcs11-libs-9.11.36-3.el8.x86_64
+python3-bind-9.11.36-3.el8.noarch
+bind-devel-9.11.36-3.el8.x86_64
+bind-utils-9.11.36-3.el8.x86_64
+bind-pkcs11-9.11.36-3.el8.x86_64
+bind-chroot-9.11.36-3.el8.x86_64
